@@ -351,4 +351,5 @@ Links to further information:
 ---
 
 # Citations
-* 
+* [sklearn.ensemble.AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html)
+* [hvplot saving plots](https://hvplot.holoviz.org/user_guide/Viewing.html#saving-plots)
