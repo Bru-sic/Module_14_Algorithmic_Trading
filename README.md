@@ -236,12 +236,22 @@ The short and long Simple Moving Average window sizes were adjusted with the fol
 |7|4|060|0.40|0.07|0.56|0.91|129.66%|
 |8|4|090|0.42|0.05|0.56|0.94|154.18%|
 |9|4|120|0.41|0.05|0.56|0.94|144.74%|
-|10*|4|090|0.64|0.00|0.56|1.00|183.03%|
+|10*|2|090|0.64|0.00|0.56|1.00|183.03%|
 
 Note: * A training window of 18 months was used for scenario 10 as this appeared to be ideal based on tests in Step 1. A training window of 3 months was used for scenarios 3 to 9 to maintain a constant comparison while other variables to changed. 
 
 
 A hypothesis that using a combination of the best resulting parameters from previous individual variable tests would also yield the best results did eventuate in terms of returns, having a 31.27 basis points improvement compared to the baseline from 151.76% to 183.03% for scenario 10. 
+
+
+## Analsyis Step 3: Backtest the new model to evaluate its performance.
+*Answer the following questions*:   
+*1. Did this new model perform better or worse than the provided baseline model?*   
+***Comparing the baseline model results (151.76%) against the AdaBoost classifier results (415.44%) it is evident that the AdaBoost classifier performed significantly better.***
+
+*2. Did this new model perform better or worse than your tuned trading algorithm?*   
+***Comparing the best tuned trading algorither (183.03%) against the AdaBoost classifier results (415.44%), again, it is evident that the AdaBoost classifier performed significantly better.***
+
 
 
 ***** TO DO ***** Write your conclusions about the performance of the baseline trading algorithm in the README.md file that’s associated with your GitHub repository. Support your findings by using the PNG image that you saved in the previous step.
